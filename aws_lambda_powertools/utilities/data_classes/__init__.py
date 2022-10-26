@@ -20,6 +20,7 @@ from .s3_event import S3Event
 from .ses_event import SESEvent
 from .sns_event import SNSEvent
 from .sqs_event import SQSEvent
+from .aws_config_event import AWSConfigEvent
 
 __all__ = [
     "APIGatewayProxyEvent",
@@ -41,4 +42,5 @@ __all__ = [
     "SNSEvent",
     "SQSEvent",
     "event_source",
+    "AWSConfigEvent",
 ]
